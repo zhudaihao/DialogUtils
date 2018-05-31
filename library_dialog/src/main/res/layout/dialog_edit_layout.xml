@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="28dp"
+        android:background="@drawable/dialog_shape"
+        android:paddingBottom="14dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="18dp"
+        android:paddingTop="24dp">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="充值金额"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginBottom="14dp"
+            android:layout_marginTop="56dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@null"
+                tools:hint="请输入你要充值的金额"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#c7c7c7"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff33b5e5" />
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/ll_tag"
+            android:button="@null"
+            android:paddingBottom="10dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="确定"
+            android:textColor="#ff33b5e5"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_tag"
+            android:layout_toLeftOf="@id/tv_confirm"
+            android:button="@null"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="18dp"
+            android:paddingTop="10dp"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

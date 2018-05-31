@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/top_shape"
+            android:gravity="center"
+            android:text="我的竞猜"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/rl_tag2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/tv_title"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bottom_shape"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/tv_commit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/commit_selection"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                android:text="提交竞猜"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <ListView
+                android:id="@+id/lv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv_commit" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_tag2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/delete" />
+    </RelativeLayout>
+</RelativeLayout>

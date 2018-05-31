@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown0"
+            android:padding="10dp"
+            android:text="普通Dialog" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown1"
+            android:padding="10dp"
+            android:text="自定义Dialog1" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown2"
+            android:padding="10dp"
+            android:text="自定义Dialog2" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown3"
+            android:padding="10dp"
+            android:text="自定义Dialog3" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown4"
+            android:padding="10dp"
+            android:text="自定义Dialog4" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown5"
+            android:padding="10dp"
+            android:text="底部对话框" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown10"
+            android:padding="10dp"
+            android:text="自定义Dialog10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown14"
+            android:padding="10dp"
+            android:text="自定义Dialog14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown6"
+            android:padding="10dp"
+            android:text="底部Dialog2" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown11"
+            android:padding="10dp"
+            android:text="加载中Dialog11" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown12"
+            android:padding="10dp"
+            android:text="加载中Dialog12" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shownToast1"
+            android:padding="10dp"
+            android:text="普通Toast1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown7"
+            android:padding="10dp"
+            android:text="自定义Toast1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shownToast2"
+            android:padding="10dp"
+            android:text="自定义Toast2" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shownToast13"
+            android:padding="10dp"
+            android:text="自定义Toast13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown8"
+            android:padding="10dp"
+            android:text="仿IOS的dialog1" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:onClick="shown9"
+            android:padding="10dp"
+            android:text="仿IOS的dialog2" />
+    </LinearLayout>
+
+</ScrollView>

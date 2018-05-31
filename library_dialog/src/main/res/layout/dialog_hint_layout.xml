@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="28dp"
+        android:background="@drawable/dialog_shape"
+        android:paddingBottom="14dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="18dp"
+        android:paddingTop="24dp">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收货提醒"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="28dp"
+            android:text="实物奖品将在兑换奖品后一个月时间内发放，注意收货。"
+            android:textColor="#666666"
+            android:textSize="16sp" />
+
+
+        <RadioButton
+            android:id="@+id/tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_content"
+            android:button="@null"
+            android:paddingBottom="10dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:text="确定"
+            android:textColor="#ff33b5e5"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_content"
+            android:layout_toLeftOf="@id/tv_confirm"
+            android:button="@null"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="18dp"
+            android:paddingTop="10dp"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
